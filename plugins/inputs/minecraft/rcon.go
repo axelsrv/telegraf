@@ -12,7 +12,7 @@ const (
 	//minecraft server
 	NoMatches = `All matches failed`
 	// ScoreboardPlayerList is the command to see all player statistics
-	ScoreboardPlayerList = `scoreboard players list *`
+	ScoreboardPlayerList = `scoreboard players list @a`
 )
 
 // RCONClient is a representation of RCON command authorizaiton and exectution
